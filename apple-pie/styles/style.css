@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body{
+    font-family:Roboto;
+    size: 10px;
+    line-height: 3.5em;    
+}
+
+header>div>#imagenFondo{
+    width: 300px;
+   
+}
