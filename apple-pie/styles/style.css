@@ -6,7 +6,61 @@ body{
     line-height: 3.5em;    
 }
 
-header>div>#imagenFondo{
-    width: 300px;
-   
+header{
+    background-image:url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no repeat;
+  background-size: cover;
+  height:650px;
+  padding:50px 0px 0px 0px;
+  position:relative;
+}
+header>div> h1 {
+    color:white;
+    text-shadow: #020819 8px -20px 9px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+	flex-wrap: nowrap;
+	justify-content: center;
+    margin-top: 250px;
+    font-size: 100px;
+    font-weight:400;
+  }
+#section0>div>p{
+   text-align: left;
+   font-size: 40px;
+   line-height: 50px;
+
+}
+#section0{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-evenly;
+    
+}
+#section1{
+    font-size: 30px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    margin: 80px;
+    
+}
+
+#section2{
+    font-size: 30px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    margin: 80px;
 }
